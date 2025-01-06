@@ -8,7 +8,7 @@ export default function CityList() {
 
     const {cities , isLoading} = useCities(); 
 
-    if (isLoading) return <Spinner />;
+    // if (isLoading) return <Spinner />;
 
     return (
         <ul className={styles.cityList}>
